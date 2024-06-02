@@ -16,7 +16,7 @@ export default function Home() {
 ***********************************************************`}
         </code>
       </pre>
-
+      <p className="text-green-600 font-mono text-2xl">🚀🚀🚀</p>
     </div>
   );
 }
