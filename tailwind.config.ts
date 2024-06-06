@@ -10,7 +10,9 @@ const config: Config = {
     extend: {
       fontSize: {
         "2xs": "10.3px",
+        'mp': '7.8px',
         "3xs": "6px",
+        "4mp": "5.3px",
         "4xs": "3.36px",
         "5xs": "1.36px",
 
