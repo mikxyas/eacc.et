@@ -6,21 +6,8 @@ export default function Home() {
   // create a function that will approximate the font width of the screen
 
   return (
-    <div style={{ height: "calc(100vh - 10vh)" }} className="flex flex-col items-center md:justify-center ">
-      <pre className="text-green-600  mb-3 text-mp font-mono  flex whitespace-pre md:mt-0 mt-3  lg:text-sm">
-
-        {` 
-***********************************************************
-███████╗    ██╗ █████╗  ██████╗ ██████╗   ███████╗████████╗
-██╔════╝   ██╔╝██╔══██╗██╔════╝██╔════╝   ██╔════╝╚══██╔══╝
-█████╗    ██╔╝ ███████║██║     ██║        █████╗     ██║   
-██╔══╝   ██╔╝  ██╔══██║██║     ██║        ██╔══╝     ██║   
-███████╗██╔╝   ██║  ██║╚██████╗╚██████╗██╗███████╗   ██║   
-╚══════╝╚═╝    ╚═╝  ╚═╝ ╚═════╝ ╚═════╝╚═╝╚══════╝   ╚═╝   
-***********************************************************
-`}
-
-      </pre>
+    <div className="flex flex-col items-center justify-center h-lvh">
+      <p className={` text-gray-500 hidden mb-3 mt-2 font-mono  text-center text-2xl`}> {`<`}BUILD FAST{`/>`}</p>
 
       <pre className="text-4mp  md:text-3xs text-center">
         <code>
@@ -89,10 +76,25 @@ export default function Home() {
           </span>
         </code>
       </pre>
+      <pre className="text-gray-500 hidden text-mp font-mono   whitespace-pre md:mt-0 mt-3  lg:text-sm">
+
+        {` 
+***********************************************************
+███████╗    ██╗ █████╗  ██████╗ ██████╗   ███████╗████████╗
+██╔════╝   ██╔╝██╔══██╗██╔════╝██╔════╝   ██╔════╝╚══██╔══╝
+█████╗    ██╔╝ ███████║██║     ██║        █████╗     ██║   
+██╔══╝   ██╔╝  ██╔══██║██║     ██║        ██╔══╝     ██║   
+███████╗██╔╝   ██║  ██║╚██████╗╚██████╗██╗███████╗   ██║   
+╚══════╝╚═╝    ╚═╝  ╚═╝ ╚═════╝ ╚═════╝╚═╝╚══════╝   ╚═╝   
+***********************************************************
+`}
+
+      </pre>
 
 
 
-      <p className={` text-green-700 mt-2  text-center text-2xl`}> {`<`}BUILD FAST{`/>`}</p>
+
+
 
 
       {/* <p>accelerate the rate of making</p> */}
