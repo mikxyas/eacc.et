@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 
 
@@ -8,6 +9,7 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center h-lvh">
       <p className={` text-gray-500 hidden mb-3 mt-2 font-mono  text-center text-2xl`}> {`<`}BUILD FAST{`/>`}</p>
+      {/* <p className="mb-3 font-mono text-green-700">theres nothing we can do</p> */}
 
       <pre className="text-4mp  md:text-3xs text-center">
         <code>
@@ -91,13 +93,9 @@ export default function Home() {
 
       </pre>
 
-
-
-
-
-
-
-      {/* <p>accelerate the rate of making</p> */}
+      <Link target="_blank" href="https://t.me/eaccET">
+        <p className="mt-3 font-mono  text-white text-opacity-65 border-dashed border border-opacity-20 border-white px-2 py-1">e/acc tg group</p>
+      </Link>
     </div>
   );
 }
