@@ -92,10 +92,13 @@ export default function Home() {
 `}
 
       </pre>
-
+      <Link target="_blank" href="https://show.eacc.et">
+        <p className="mt-3 font-mono  text-white text-opacity-65 border-dashed border border-opacity-20 border-white px-2 py-1">show.e/acc.et</p>
+      </Link>
       <Link target="_blank" href="https://t.me/eaccET">
         <p className="mt-3 font-mono  text-white text-opacity-65 border-dashed border border-opacity-20 border-white px-2 py-1">e/acc tg group</p>
       </Link>
+
     </div>
   );
 }
